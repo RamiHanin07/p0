@@ -73,7 +73,7 @@ int main(int argc, char *argv[]){
         for(int i = 0; i < checkRequirements.length(); i++){
             cout << checkRequirements[i] << " checkreq " << i << endl;
             cout << isalpha(checkRequirements[i]) << " ; isAlpha" << endl;
-            if(isalpha(checkRequirements[i]) != true){
+            if(isalpha(checkRequirements[i]) < 1){
                 isAlpha = false;
                 i = checkRequirements.length();
             }
@@ -85,7 +85,7 @@ int main(int argc, char *argv[]){
 
         bool isLower = true;
         for(int i = 0; i < checkRequirements.length(); i++){
-            if(islower(checkRequirements[i]) != true){
+            if(islower(checkRequirements[i]) < 1){
                 isLower = false;
                 i = checkRequirements.length();
             }
