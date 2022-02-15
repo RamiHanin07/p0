@@ -72,6 +72,7 @@ int main(int argc, char *argv[]){
         bool isAlpha = true;
         for(int i = 0; i < checkRequirements.length(); i++){
             cout << checkRequirements[i] << " checkreq " << i << endl;
+            cout << isalpha(checkRequirements[i]) << " ; isAlpha" << endl;
             if(isalpha(checkRequirements[i]) != true){
                 isAlpha = false;
                 i = checkRequirements.length();
