@@ -71,8 +71,8 @@ int main(int argc, char *argv[]){
     while(InFile >> checkRequirements){
         bool isAlpha = true;
         for(int i = 0; i < checkRequirements.length(); i++){
-            cout << checkRequirements[i] << " checkreq " << i << endl;
-            cout << isalpha(checkRequirements[i]) << " ; isAlpha" << endl;
+            //cout << checkRequirements[i] << " checkreq " << i << endl;
+            //cout << isalpha(checkRequirements[i]) << " ; isAlpha" << endl;
             if(isalpha(checkRequirements[i]) < 1){
                 isAlpha = false;
                 i = checkRequirements.length();
