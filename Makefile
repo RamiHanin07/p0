@@ -1,2 +1,2 @@
-p0.o : p0.cpp
-	g++ -g -o p0 p0.cpp
+p0.o : main.cpp buildTree.cpp traversals.cpp
+	g++ -g -o P0 main.cpp buildTree.cpp traversals.cpp
